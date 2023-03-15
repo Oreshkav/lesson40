@@ -17,12 +17,11 @@ public class Man {
     return name;
     }
 
-  @Override
-  public String toString(){
-    return String.format("Человек по имени %s", name);
-    }
+  public void helloMan() {
+    System.out.printf("Человек по имени %s%n", name);
+  }
 
-    public String helloMan(){
-    return String.format("Я родился!");
-    }
+  public void haveBorn() {
+    System.out.println("Я родился!");
+  }
 }
