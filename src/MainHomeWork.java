@@ -34,7 +34,7 @@ public class MainHomeWork {
     people.add(child);
 
     for (Person person : people){
-      person.helloMan();
+      person.helloPerson();
       person.haveBorn();
     }
 

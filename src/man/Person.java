@@ -15,7 +15,7 @@ public class Person {
     return name;
     }
 
-  public void helloMan() {
+  public void helloPerson() {
     System.out.printf("Человек по имени %s%n", name);
   }
 
