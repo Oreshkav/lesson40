@@ -1,4 +1,4 @@
-import man.Man;
+import man.Person;
 import man.Men;
 import man.Woman;
 
@@ -22,20 +22,20 @@ public class MainHomeWork {
     //Метод "приветствие" класса "Женщина" должен выводить
     // строку: "Я родилась!"
 
-    List<Man> people = new ArrayList<>();
+    List<Person> people = new ArrayList<>();
 
-    Man women = new Woman("Veronica");
+    Person women = new Woman("Veronica");
     people.add(women);
 
-    Man men = new Men("Stiv");
+    Person men = new Men("Stiv");
     people.add(men);
 
-    Man child = new Man("Chelovek");
+    Person child = new Person("Chelovek");
     people.add(child);
 
-    for (Man man : people){
-      man.helloMan();
-      man.haveBorn();
+    for (Person person : people){
+      person.helloMan();
+      person.haveBorn();
     }
 
 

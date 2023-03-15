@@ -1,11 +1,9 @@
 package man;
 
-import java.security.PublicKey;
-
-public class Man {
+public class Person {
   String name;
 
-  public Man(String name){
+  public Person(String name){
     this.name = name;
   }
 
